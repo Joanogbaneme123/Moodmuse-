@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MooMuse</title>
+  
+  <link rel="stylesheet" href="style.css">
+  
+  
+</head>
+
+<body>
+  
+  <header class="nav-bar">
+  <div class="logo">MoodMuse</div>
+
+  <nav class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#moods">Moods</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+   <div class="shapes">
+     <span class="shape s1"></span>
+     <span class="shape s2"></span>
+     <span class="shape s3"></span>
+   </div>
+
+ <div class="hero-content">
+    <h1>Design Powered by Emotions</h1>
+    <p>Create with feeling and designed with purpose.✨</p>
+    <button class="primary-btn">Discover Your Mood</button>
+    <button class="secondary-btn">Explore Moods</button>
+ </div>
+</section>  
+
+
+<section class="mood-selector" id="moods">
+  <h2>Choose Your Mood</h2>
+  <p class="subtitle">Select how you feel and explore designs that match your emotions.</p>
+
+  <div class="mood-grid">
+
+    <div class="mood-card happy">
+      <h3>😊 Happy</h3>
+      <p>Bright colors, playful layouts, and cheerful elements designed to lift your mood, spread positivity, and create a joyful visual experience.</p>
+    </div>
+
+    <div class="mood-card calm">
+      <h3>😌 Calm</h3>
+      <p>Soft tones, minimal design, and smooth spacing that help you relax, focus, and enjoy a peaceful and balanced interface.</p>
+    </div>
+
+    <div class="mood-card energetic">
+      <h3>⚡ Energetic</h3>
+      <p>Bold colors, strong contrasts, and dynamic layouts made to spark motivation, excitement, and high-energy creativity.</p>
+    </div>
+
+    <div class="mood-card sad">
+      <h3>😔 Sad</h3>
+      <p>Cool colors and gentle visuals that express emotion, encourage reflection, and provide a quiet, comforting atmosphere.</p>
+    </div>
+
+    <div class="mood-card inspired">
+      <h3>💡 Inspired</h3>
+      <p>Creative compositions, artistic typography, and unique color blends that stimulate imagination and fresh ideas.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-container">
+    <h2>About MoodMuse</h2>
+    <p class="about-subtitle">
+      MoodMuse is a creative platform that connects emotions with design.  
+      Each mood — Happy, Calm, Energetic, Sad, Inspired — has its own colors, typography, and style to inspire your visual creativity.
+    </p>
+
+    <div class="about-cards">
+      <div class="about-card">
+        <h3>🎨 Explore Emotions</h3>
+        <p>Discover how different moods can influence the look and feel of your design projects.</p>
+      </div>
+      
+      <div class="about-card">
+        <h3>💡 Gain Inspiration</h3>
+        <p>Use the curated mood palettes and design styles to spark your creativity instantly.</p>
+      </div>
+      <div class="about-card">
+        <h3>⚡ Easy to Use</h3>
+        <p>Simply select a mood and explore color palettes, typography, and layout ideas in one place.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-container">
+
+    <div class="contact-text">
+      <h2>Get in Touch</h2>
+      <p>
+        Have ideas, feedback, or questions about MoodMuse?  
+        Feel free to send a message, we'd love to hear from you.
+      </p>
+
+      <div class="contact-info">
+        <a href="#">@moodmuse.com</a>
+        <p>🌍 Nigeria</p>
+      </div>
+    </div>
+    
+
+<form onsubmit="sendToWhatsApp(); return false;" class="contact-form">
+
+  <input type="text" id="name" placeholder="Your Name" required>
+  <input type="email" id="email" placeholder="Your Email" required>
+  <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+  <button type="submit">Send Message</button>
+
+</form>
+
+</div>
+</section>
+
+
+<footer>
+<div class="site-footer">
+<div class="footer-container">
+
+    <div class="footer-brand">
+      <h3>MoodMuse</h3>
+      <p>Design inspired by emotion.</p>
+    </div>
+
+    <div class="footer-social">
+      <h4>Connect</h4>
+      <p>Instagram</p>
+      <p>Twitter</p>
+      <p>Facebook </p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 MoodMuse. Built by codeyjo.</p>
+  </div>
+  
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>
